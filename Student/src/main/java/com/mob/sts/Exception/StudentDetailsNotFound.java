@@ -29,10 +29,7 @@ public class StudentDetailsNotFound extends RuntimeException{
 	}
 
 
-	@Override
-	public String toString() {
-		return "StudentDetailsNotFound [message=" + message + ", status=" + status + "]";
-	}
+	
     
 	
 
