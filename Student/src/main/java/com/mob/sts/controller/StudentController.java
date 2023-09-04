@@ -82,7 +82,7 @@ public class StudentController {
          if(student!=null)
          {
 		  studentService.deleteStudent(id);
-		 return new ResponseEntity<>("Data deleted successfully",HttpStatus.OK);
+		 return new ResponseEntity<>("Data deleted successfully with id",HttpStatus.OK);
          }
          
 		
