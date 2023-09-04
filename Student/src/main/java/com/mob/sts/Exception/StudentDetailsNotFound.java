@@ -11,7 +11,8 @@ public class StudentDetailsNotFound extends RuntimeException{
 	 */
 	private static final long serialVersionUID = 1L;
 	private String message;
-    private HttpStatus status;
+        private HttpStatus status;
+	private String message
 	public StudentDetailsNotFound(String message,HttpStatus status) {
 		super();
 		this.message = message;
@@ -30,7 +31,7 @@ public class StudentDetailsNotFound extends RuntimeException{
 
 
 	
-    
+     
 	
 
 }
